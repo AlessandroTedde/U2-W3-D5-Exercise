@@ -13,38 +13,57 @@
         <a class="navbar-brand" href="#">
           <img height="40" src="./assets/netflix_logo.png" />
         </a>
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="visually-hidden-focusable">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">TV Shows</a>
-          </li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">Movies</a>
-          </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="visually-hidden-focusable">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV Shows</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">Recently Added</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My List</a>
-          </li>
-        </ul>
-        <div class="d-flex text-light align-items-center gx-3">
-          <i class="bi bi-search me-3"></i>
-          <span class="me-3">KIDS</span>
-          <i class="bi bi-bell-fill me-1"></i>
-          <div class="dropdown">
-            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="./assets/avatar.png" alt="avatar" height="40" />
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item active" href="#">Main Account</a></li>
-              <li><a class="dropdown-item" href="#">Secondary Account</a></li>
-              <li><a class="dropdown-item" href="#">Create New Account</a></li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recently Added</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My List</a>
+            </li>
+          </ul>
+          <div class="d-flex text-light align-items-center gx-3">
+            <i class="bi bi-search me-3"></i>
+            <span class="me-3">KIDS</span>
+            <i class="bi bi-bell-fill me-1"></i>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./assets/avatar.png" alt="avatar" height="40" />
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">Main Account</a></li>
+                <li><a class="dropdown-item" href="#">Secondary Account</a></li>
+                <li><a class="dropdown-item" href="#">Create New Account</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -77,96 +96,96 @@
       </div>
       <div class="mx-5">
         <h2 class="mt-4">Trending Now</h2>
-        <div class="row row-cols-lg-6 g-lg-2">
+        <div class="row row-cols-md-4 g-1 row-cols-lg-6 g-lg-2">
           <div class="col">
             <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
           </div>
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media1.jpg" alt="" /></div>
           </div>
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media2.webp" alt="" /></div>
           </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+          <div class="col d-none d-sm-block">
+            <div><img class="img-fluid" src="./assets/media/media3.webp" alt="" /></div>
           </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+          <div class="col d-none d-lg-block">
+            <div><img class="img-fluid" src="./assets/media/media4.jpg" alt="" /></div>
           </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
-          </div>
-        </div>
-        <h2 class="mt-5">Trending Now</h2>
-        <div class="row row-cols-lg-6 g-lg-2">
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
-          </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
-          </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
-          </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
-          </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
-          </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+          <div class="col d-none d-lg-block">
+            <div><img class="img-fluid" src="./assets/media/media5.webp" alt="" /></div>
           </div>
         </div>
-        <h2 class="mt-5">Trending Now</h2>
-        <div class="row row-cols-lg-6 g-lg-2">
+        <h2 class="mt-5">Watch It Again</h2>
+        <div class="row row-cols-md-4 g-1 row-cols-lg-6 g-lg-2">
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media6.jpg" alt="" /></div>
           </div>
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media7.webp" alt="" /></div>
           </div>
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media8.webp" alt="" /></div>
+          </div>
+          <div class="col d-none d-sm-block">
+            <div><img class="img-fluid" src="./assets/media/media9.jpg" alt="" /></div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div><img class="img-fluid" src="./assets/media/media10.jpg" alt="" /></div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div><img class="img-fluid" src="./assets/media/media11.jpg" alt="" /></div>
+          </div>
+        </div>
+        <h2 class="mt-5">New Releases</h2>
+        <div class="row row-cols-md-4 g-1 row-cols-lg-6 g-lg-2">
+          <div class="col">
+            <div><img class="img-fluid" src="./assets/media/media12.jpg" alt="" /></div>
           </div>
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media13.jpg" alt="" /></div>
           </div>
           <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+            <div><img class="img-fluid" src="./assets/media/media14.webp" alt="" /></div>
           </div>
-          <div class="col">
-            <div><img class="img-fluid" src="./assets/media/media0.webp" alt="" /></div>
+          <div class="col d-none d-sm-block">
+            <div><img class="img-fluid" src="./assets/media/media15.jpg" alt="" /></div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div><img class="img-fluid" src="./assets/media/media16.webp" alt="" /></div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div><img class="img-fluid" src="./assets/media/media17.jpg" alt="" /></div>
           </div>
         </div>
         <footer class="container mt-5 py-3 mx-auto">
           <div class="d-flex align-items-center gap-3">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter-x"></i>
-            <i class="bi bi-youtube"></i>
+            <i class="bi bi-facebook fs-3"></i>
+            <i class="bi bi-instagram fs-3"></i>
+            <i class="bi bi-twitter-x fs-3"></i>
+            <i class="bi bi-youtube fs-3"></i>
           </div>
-          <div class="d-flex align-items-block-start gap-9 mt-4">
-            <div class="d-flex flex-column gap-2">
-              <p>Audio and Subtitles</p>
-              <p>Media Center</p>
-              <p>Privacy</p>
-              <p>Contact Us</p>
+          <div class="row row-cols-2 row-cols-md-4 mt-4">
+            <div class="col g-2">
+              <p><a href="#">Audio and Subtitles</a></p>
+              <p><a href="#">Media Center</a></p>
+              <p><a href="#">Privacy</a></p>
+              <p><a href="#">Contact Us</a></p>
             </div>
-            <div class="d-flex flex-column gap-2">
-              <p>Audio and Subtitles</p>
-              <p>Media Center</p>
-              <p>Privacy</p>
+            <div class="col g-2">
+              <p><a href="#">Audio Description</a></p>
+              <p><a href="#">Investor Relations</a></p>
+              <p><a href="#">Legal Notices</a></p>
             </div>
-            <div class="d-flex flex-column gap-2">
-              <p>Audio and Subtitles</p>
-              <p>Media Center</p>
-              <p>Privacy</p>
+            <div class="col g-2">
+              <p><a href="#">Help Center</a></p>
+              <p><a href="#">Jobs</a></p>
+              <p><a href="#">Cookie Preferences</a></p>
             </div>
-            <div class="d-flex flex-column gap-2">
-              <p>Audio and Subtitles</p>
-              <p>Media Center</p>
-              <p>Privacy</p>
+            <div class="col g-2">
+              <p><a href="#">Gift Cards</a></p>
+              <p><a href="#">Terms of Use</a></p>
+              <p><a href="#">Corporate Informations</a></p>
             </div>
           </div>
           <button class="btn btn-dark border border-1 border-light mt-4 rounded-0">Service Code</button>

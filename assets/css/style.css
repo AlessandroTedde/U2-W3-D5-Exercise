@@ -8468,6 +8468,18 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.fs-8 {
+  font-size: 0.5rem !important;
+}
+
+.fs-9 {
+  font-size: 0.25rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -12576,4 +12588,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+footer div a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+footer div a:hover {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
